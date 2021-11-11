@@ -1,1 +1,1 @@
-# zabbix simple tsa check
+# Zabbix simple TSA check
