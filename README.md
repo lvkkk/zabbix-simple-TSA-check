@@ -1,0 +1,1 @@
+# zabbix-simple-tsa-check
