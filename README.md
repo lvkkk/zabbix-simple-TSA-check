@@ -1,1 +1,1 @@
-# zabbix-simple-tsa-check
+# zabbix simple tsa check
