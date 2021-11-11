@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <zabbix_export>
     <version>4.4</version>
-    <date>2021-11-11T13:37:25Z</date>
+    <date>2021-11-11T14:49:45Z</date>
     <groups>
         <group>
             <name>Templates/Applications</name>
@@ -34,6 +34,13 @@
                             <name>timestamp-app</name>
                         </application>
                     </applications>
+                    <triggers>
+                        <trigger>
+                            <expression>{nodata(900)}=1</expression>
+                            <name>TSA unavailable</name>
+                            <priority>HIGH</priority>
+                        </trigger>
+                    </triggers>
                 </item>
             </items>
         </template>
